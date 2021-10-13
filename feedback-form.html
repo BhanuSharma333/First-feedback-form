@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback Form</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1> Feedback Form</h1>
+<form>
+<b><p>First Name: <input type= "text">
+Last Name: <input type= "text"></b><br><br>
+<b>Phone Number: <input type="tel" placeholder="Enter Phone no."></b><br><br>
+<b>Email Id: <input type="email" placeholder="Enter Email id"></b><br><br>
+<b>Gender: </b><br>
+<input type="radio" name="gender">Male<br>
+<input type="radio" name="gender">Female<br>
+<input type="radio" name="gender">Other<br><br>
+<b>Date of Birth: </b>
+<input type="date"><br><br>
+<b>Feedback Rating: </b>
+<select>
+    <option>Very Good</option>
+    <option>Good</option>
+    <option>Average</option>
+    <option>Poor</option>
+    <option>Worst</option>
+  </select><br><br>
+<b>Hobbies: </b><br>
+<input type="checkbox" value="hobby">Singing
+<input type="checkbox" value="hobby">reading
+<input type="checkbox" value="hobby">Cricket
+<input type="checkbox" value="hobby">gaming<br><br>
+<b>Feedback: </b><br>
+<textarea name="message" rows="5" cols="50" placeholder="Give your Feedback Here...">
+</textarea><br><br>
+
+<button class="btn submit" type="submit">Submit</button>
+<button class="btn" type="reset">Reset</button>
+</form>
+</body>
+</html>
